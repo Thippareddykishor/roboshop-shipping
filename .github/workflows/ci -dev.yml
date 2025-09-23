@@ -1,0 +1,10 @@
+name:  CI - DEV branch
+on: 
+    push:
+        branches:
+            - 'RB**'
+jobs:
+    common: 
+        uses: Thippareddykishor/github-actions-resuable/.github/workflows/ci-dev.yml@main
+        with: 
+            component_name: shipping 
