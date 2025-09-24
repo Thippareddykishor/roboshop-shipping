@@ -1,3 +1,3 @@
-for i in schema app-user master-data; 
-mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} < /app/db/$1.sql
+for i in schema app-user master-data; do
+mysql -h ${DB_HOST} -u${DB_USER} -p${DB_PASS} < $1.sql
 done
