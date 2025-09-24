@@ -1,7 +1,7 @@
-name: common CI
+name: DB shcema image
 on: workflow_dispatch
 jobs:
-    schema-image:
+    Docker-Build-And-Docker-Push:
         runs-on: self-hosted
         steps:
             - name: checkout repo code
