@@ -1,4 +1,4 @@
-FROM        redhat/ub19
+FROM        redhat/ubi9
 RUN         dnf install mysql -y
 RUN         mkdir /app
 WORKDIR     /app
