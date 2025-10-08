@@ -9,6 +9,6 @@ jobs:
             - name: download dependies
               run: |
                 cd db
-                docker build -t 740279881161.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest  .
-                aws ecr get-login-password --region us-east-1 | docker login --username AWS  --password-stdin 740279881161.dkr.ecr.us-east-1.amazonaws.com
-                docker push 740279881161.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest
+                docker build -t 803817915930.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest  .
+                aws ecr get-login-password --region us-east-1 | docker login --username AWS  --password-stdin 803817915930.dkr.ecr.us-east-1.amazonaws.com
+                docker push 803817915930.dkr.ecr.us-east-1.amazonaws.com/shipping-schema:latest
