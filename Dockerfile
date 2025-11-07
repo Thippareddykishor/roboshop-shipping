@@ -1,5 +1,5 @@
 # FROM    docker.io/openjdk
-FROM docker.io/openjdk
+FROM openjdk:17-jdk
 RUN     useradd java
 WORKDIR /home/java
 COPY    target/shipping-1.0.jar shipping.jar
